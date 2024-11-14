@@ -1,0 +1,92 @@
+body {
+    
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+    scroll-margin-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #363536;
+    line-height: 1.6;
+}
+
+header { top: 0%;
+    left: 50%;
+    display: flex;
+    width: 100%;
+    position: fixed;
+   
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: rgb(255, 49, 186);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+    max-width: 800px;
+    padding: 2rem;
+    border: 1px solid rgb(255, 49, 186);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+form {
+    width: 100%;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    color: rgb(255, 49, 186);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form textarea,
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid rgb(255, 49, 186);
+    border-radius: 4px;
+}
+
+form button {
+    background: rgb(255, 49, 186);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+   
+}
+
+form button:hover {
+    background: linear-gradient(rgb(255, 4, 134));
+}
+
+
+
+
+.img-fluid {
+    max-width: 20%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: block;
+    margin: 0% ; 
+}

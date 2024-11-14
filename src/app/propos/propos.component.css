@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(255, 49, 186);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(255, 49, 186);
+}
+h1 {
+color: #333;
+}
+ h2 {
+color: rgb(255, 4, 134);
+}
+
+p {
+color: #333;
+font-size: 1.1rem;
+line-height: 1.8;
+}
+
+a {
+color: #ff00ea;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}

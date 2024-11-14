@@ -1,0 +1,165 @@
+body {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+    scroll-margin-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    background: var(--main-color);
+}
+
+section {
+    padding: 50px 50px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 100px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar h2 {
+    position: relative;
+    font-size: 30PX;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-size: 500;
+}
+
+.navbar a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: var(--gradient);
+    position: static;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.header-btn a {
+    padding: 10px 10px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.header-btn .sign-in {
+    background: rgb(255, 4, 134);
+    color: rgb(255, 240, 254);
+    border-radius: 0rem;
+}
+
+.header-btn .sign-in:hover {
+    background: var(--main-color);
+}
+
+.book-details {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info h2 {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.book-info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.author-image img {
+    max-width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #363536;
+}

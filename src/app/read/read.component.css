@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #f6f6f6;
+    color: #363536;
+    padding: 20px;
+    height: 65vh;
+   
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #363536;
+}
+
+.format-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.pdf-option,
+.physical-book-option {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pdf-option {
+    background-color: rgb(255, 4, 134);
+}
+
+.physical-book-option {
+    background-color: #363536;
+}
+
+.back-to-details {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #363536;
+    font-weight: bold;
+}
+
+.back-to-details:hover {
+    text-decoration: underline;
+}
+.aa{
+    height: 50%;
+    width: 50%;
+}

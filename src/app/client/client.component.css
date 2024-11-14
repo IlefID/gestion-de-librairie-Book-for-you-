@@ -1,0 +1,111 @@
+*{
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+    scroll-margin-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root {
+    --main-color:rgb(95, 92, 94);
+    --text-color:#363536;
+    --bg-color:#fff;
+    --gradient: linear-gradientr rgb(255, 4, 134) ;
+}
+section{
+    padding: 50px 50px;
+}
+
+   
+   .header-btn .sign-in{
+    background: rgb(255, 4, 134);
+    color: rgb(255, 240, 254);
+    border-radius: 0rem;
+   }
+   .header-btn .sign-in:hover{
+    background: rgb(95, 92, 94);
+   }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url(/assets/zina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    display: grid;
+    align-items:center;
+    grid-template-columns: repeat(2,1fr);
+}
+.text{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-left: 130px;
+}
+.text h1{
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+        color: #363536;
+        
+       }
+       .text p{
+        margin: 00.5rem 0 1rem;
+        color: #363536; 
+       }
+    
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+
+.header-btn .sign-in {
+    background: rgb(255, 4, 134);
+    color: rgb(255, 240, 254);
+    border-radius: 0rem;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.header-btn .sign-in:hover {
+    background: rgb(95, 92, 94);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

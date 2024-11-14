@@ -1,0 +1,128 @@
+.banner
+{
+  background-image: url("/assets/image/livre1.jpg");
+  height: 500px;
+  background-position: center top;
+  background-size: cover;
+
+
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.content h1{
+  color:#fff;
+  font-size:40px;
+  font-weight:bold;
+  font-family: cursive;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  font-size: 30pt;
+  margin-bottom: 15px;
+
+}
+
+.content
+{
+  top:15%;
+  left:90px;
+  position: absolute;
+  text-align:center;
+}
+.content a{
+  text-decoration:none;
+  background-color: #fff;
+  color:peru;
+  padding:10px 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+
+}
+.content a:hover{
+  background-color: peru;
+  color:#fff;
+}
+
+.title h1{
+  color:black;
+  text-align: center;
+  font-family:Stencil Std, fantasy;
+  padding-top: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.image img
+{
+width: 400px;
+height: 150px;
+border-radius: 10px;
+-webkit-box-shadow: none;
+box-shadow: none;
+margin-left: 550px;
+}
+
+
+ .photo img{
+width: 400px;
+height: 284px;
+margin-left: 900px;
+margin-bottom: 600px;
+margin-top: 10px;
+float: right;
+}
+.img{
+  float:right;
+  width: 350px;
+  height: 200px;
+  margin-left: 500;
+ left:550px;
+ top:100px ;
+ bottom: 550px;
+
+}
+.phrase{
+  position: relative;
+  width:70%;
+  left: 15%;
+  top:90%;
+}
+.phrase p{
+  margin-left: 300px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-size: 15px; 
+  width: 400px;
+height: 150px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bb
+{
+  height: 50px;
+  width: 50px;
+}
+.liste p{
+  background-image: url("/assets/image/livree.jpg");
+}
+
+
+.livre{
+width:100%;
+height: 100%; 
+}
+.bb{
+  margin: auto;
+  padding: auto;
+}
+

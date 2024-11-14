@@ -1,0 +1,43 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 65vh;
+    
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .from {
+    background-color: #e0e0e0; 
+  }
+  
+  .to {
+    background-color: #f722a9; 
+    color: white;
+  }
+  
+  .form-control {
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  .float-right {
+    float: right;
+  }
+ 
